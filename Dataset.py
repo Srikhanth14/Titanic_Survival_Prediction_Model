@@ -31,7 +31,7 @@ def app():
 
     st.subheader("Sample Data")
     st.write("Here is a snippet of the dataset, showcasing a few rows:")
-    data=pd.read_csv(r"D:\PROJECTS\Project_Files\tested.csv")
+    data=pd.read_csv('tested.csv')
     st.dataframe(data)
 
     # Display your sample data here
