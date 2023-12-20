@@ -13,7 +13,7 @@ from PIL import Image
     
 
 def app():
-    loaded_model = pickle.load(open(r'C:\Users\ELCOT\.spyder-py3\Model_Deployment\titanic_trained_model.sav','rb'))
+    loaded_model = pickle.load(open('titanic_trained_model.sav','rb'))
 
     # Creating function for prediction
     def titanic_survival_prediction(input_data):
