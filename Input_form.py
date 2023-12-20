@@ -39,10 +39,10 @@ def app():
         # Display prediction result
         if prediction[0] == 0:
             
-            st.image(Image.open(r"C:\Users\ELCOT\Downloads\Sorry_Dead.png"),use_column_width=True)
+            st.image(Image.open('Sorry_Dead.png"),use_column_width=True)
         else:
             
-            st.image(Image.open(r"C:\Users\ELCOT\Downloads\Survived.jpg"),use_column_width=True)
+            st.image(Image.open('Survived.jpg"),use_column_width=True)
        
     def main():
         st.title('Titanic Survival Prediction Web App')
