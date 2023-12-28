@@ -7,7 +7,7 @@ Created on Wed Dec 20 23:28:21 2023
 
 import streamlit as st
 def app():
-    st.title("About Titanic Survival Prediction")
+    st.title("Titanic Survival Prediction")
     st.write("""Discover the Titanic's story through our web app, which predicts whether a passenger
     survived based on their details. Immerse yourself in the realm of data science and unlock
     insights from this historic voyage""")  
