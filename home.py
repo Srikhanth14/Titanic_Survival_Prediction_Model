@@ -16,7 +16,7 @@ def home():
     st.image(image,use_column_width=True)
     
     # Introduction
-    st.title("Welcome to the Titanic Survival Prediction App!")
+    st.header("Welcome to the Titanic Survival Prediction App!")
     st.write('''Embark on a journey to uncover the fate of passengers aboard the legendary
     Titanic. This web app showcases the power of machine learning in predicting survival
     outcomes based on various features.''')
