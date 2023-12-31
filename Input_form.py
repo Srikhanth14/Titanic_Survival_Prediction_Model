@@ -47,11 +47,11 @@ def app():
         st.write("Enter the Passenger Details: ")
         Pclass = st.selectbox('Passenger Class', [1, 2, 3])
         sex_options = ['Male', 'Female']
-        Sex = st.radio('Sex', sex_options, index=0)
+        Sex = st.radio('Sex', sex_options, index=None)
         Age = st.text_input("Passenger Age")
         Fare = st.text_input('Enter the Fare Amount')
         embarked_options = ['Q', 'S', 'C']
-        Embarked = st.selectbox("Embarked", embarked_options)
+        Embarked = st.selectbox("Embarked", embarked_options,index=None)
         FamilySize = st.text_input('Family Size')
 
         if st.button('Survival Test Result'):
