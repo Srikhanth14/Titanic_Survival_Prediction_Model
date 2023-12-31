@@ -45,7 +45,7 @@ def app():
     def main():
         st.title('Titanic Survival Prediction Web App')
         st.write("Enter the Passenger Details: ")
-        Pclass = st.selectbox('Passenger Class', [1, 2, 3])
+        Pclass = st.selectbox('Passenger Class', [1, 2, 3],index=None)
         sex_options = ['Male', 'Female']
         Sex = st.radio('Sex', sex_options, index=None)
         Age = st.text_input("Passenger Age")
