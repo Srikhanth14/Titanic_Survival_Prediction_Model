@@ -10,7 +10,7 @@ from PIL import Image
 
 def home():
    
-    image = Image.open("C:\\Users\\ELCOT\\.spyder-py3\\Model_Deployment\\titanic\\Boat.jpeg")
+    image = Image.open("Boat.jpeg")
 
     # Display the image in your Streamlit app
     st.image(image,use_column_width=True)
