@@ -15,7 +15,7 @@ selected = option_menu(
                             menu_title="Titanic",
                             options=["Home","Dataset","Visualization","Input_form"],
                             icons=["house-fill","database-down","bar-chart", "ui-radios-grid"],
-                            menu_icon="ship",
+                            menu_icon="⛴️",
                             default_index=0,
                             orientation="horizontal"
                       )
