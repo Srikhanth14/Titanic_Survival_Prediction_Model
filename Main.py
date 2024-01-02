@@ -12,11 +12,10 @@ import home,Dataset,Visualization,Input_form
 
 st.set_page_config(page_title="Titanic", page_icon="ship", layout="wide")  
 
-hide_st_style ="""
-<style>
-#MainMenu{visibility:hidden;}
-footer{visibility:hidden;}
-header{visibility:hidden;}
+hide_st_style ="""<style>
+       #MainMenu{visibility:hidden;}
+       footer{visibility:hidden;}
+       header{visibility:hidden;}
 </style> 
 """
 st.markdown(hide_st_style,unsafe_allow_html=True)
